@@ -1,0 +1,14 @@
+.adModal__img {
+  width: 141px;
+  height: 100%;
+  object-fit: cover;;
+}
+
+.adModal__scroll::-webkit-scrollbar {
+  width: 8px;
+
+  &-thumb {
+  background-color: $gray-500; 
+  border-radius: 5px;
+  }
+}

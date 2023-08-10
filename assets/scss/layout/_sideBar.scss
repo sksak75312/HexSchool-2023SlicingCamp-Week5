@@ -1,0 +1,26 @@
+.sideBar {
+  min-width: 296px;
+
+  &__link.active, &__link:hover {
+    position: relative;
+    color: $green !important;
+
+    &::before {
+      position: absolute;
+      top: -4px;
+      left: 0;
+      display: block;
+      content: '';
+      width: 4px;
+      height: 32px;
+      background: $green;
+    }
+  }
+
+  &__img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+
+}

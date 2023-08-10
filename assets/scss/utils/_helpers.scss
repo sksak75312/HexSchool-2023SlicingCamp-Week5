@@ -1,0 +1,34 @@
+.material-icons {
+  vertical-align: middle;
+}
+
+.link {
+
+  &__hover-swing:hover {
+    color: $green !important;
+    vertical-align: middle;
+    animation: swing 1s ease infinite;
+  }
+
+  &__hover:hover {
+  color: $green;
+  }
+}
+
+@keyframes swing {
+  25% {
+    transform: rotate(50deg);
+  }
+
+  50% {
+    transform: rotate(-30deg);
+  }
+
+  75% {
+    transform: rotate(50deg);
+  }
+
+  100% {
+    transform: rotate(-30deg);
+  }
+}
