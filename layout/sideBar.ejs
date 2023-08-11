@@ -24,7 +24,7 @@
         </a>
       </li>
       <li class="sideBar__item nav-item">
-        <a class="sideBar__link nav-link d-flex gap-4 px-6 py-0 text-dark fw-bold active" href="./index.html">
+        <a class="sideBar__link nav-link d-flex gap-4 px-6 py-0 text-dark fw-bold <%= page === 'index' ? 'active': '' %>" href="./index.html">
           <span class="material-icons">
             assignment
           </span>
@@ -40,7 +40,7 @@
         </a>
       </li>
       <li class="sideBar__item nav-item">
-        <a class="sideBar__link nav-link d-flex gap-4 px-6 py-0 text-dark fw-bold" href="./admin.html">
+        <a class="sideBar__link nav-link d-flex gap-4 px-6 py-0 text-dark fw-bold <%= page === 'admin' ? 'active': '' %>" href="./admin.html">
           <span class="material-icons">
             supervisor_account
           </span>

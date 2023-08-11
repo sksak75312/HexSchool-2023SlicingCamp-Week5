@@ -12,7 +12,7 @@
   </head>
   <body>
     <div class="d-flex">
-      <%- include('./layout/sideBar.ejs'); -%>
+      <%- include('./layout/sideBar.ejs', {page: "admin"}); -%>
       <!-- Admin 主要內容 -->
       <main
         class="container-fluid d-flex flex-column justify-content-between p-6"
@@ -640,26 +640,26 @@
           </table>
         </div>
 
-        <!-- 導覽列 -->
+        <!-- 分頁區塊 -->
         <ul class="pagination justify-content-end mb-0">
           <li class="page-item">
-            <a class="btn btn-outline-success rounded-0 px-2" href="#">
+            <a class="page-link page__icon rounded-6 p-1 h-100" href="#">
               <span class="material-icons"> chevron_left </span>
             </a>
           </li>
           <li class="page-item">
-            <a class="btn btn-outline-success rounded-0 h-100 active" href="#"
+            <a class="page-link active" href="#"
               >1</a
             >
           </li>
           <li class="page-item">
-            <a class="btn btn-outline-success rounded-0 h-100" href="#">2</a>
+            <a class="page-link" href="#">2</a>
           </li>
           <li class="page-item">
-            <a class="btn btn-outline-success rounded-0 h-100" href="#">3</a>
+            <a class="page-link" href="#">3</a>
           </li>
           <li class="page-item">
-            <a class="btn btn-outline-success rounded-0 px-2" href="#">
+            <a class="page-link page__icon rounded-6 p-1 h-100" href="#">
               <span class="material-icons"> chevron_right </span>
             </a>
           </li>

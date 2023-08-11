@@ -32,9 +32,15 @@
 // Utilities 共用
 @import "/node_modules/bootstrap/scss/utilities/api";
 
-
+// 自定義 base 資料夾
 @import './base/base';
-@import './layout/sideBar';
+
+// 自定義 utils 資料夾
 @import './utils/helpers';
+
+// 自定義 layout 資料夾
+@import './layout/sideBar';
+
+// 自定義 pages 資料夾
 @import './pages/index';
 @import './pages/admin';
